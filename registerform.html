@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Student Regstration Form</h1>
+    <fieldset>
+      <form>
+     <label for="name"><strong>First Name:</strong></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          palceholder="Enter your first name"
+        /><br /><br />
+        <label for="LName"> <strong>Last Name:</strong></label>
+        <input
+          type="text"
+          name="Lname"
+          id="LName"
+          placeholder="Enter your Ladt name"
+        /><br /><br />
+        <label for="mail"><strong>Email</strong></label>
+        <input
+          type="Email"
+          id="mail"
+          name="mail"
+          placeholder="it should contain @"
+        /><br /><br />
+        <label for="mobile"><strong>Mobile:</strong></label>
+        <input
+          type="tel"
+          name="mobile"
+          id="mobile"
+          placeholder="only 10 digits are allowed"
+        /><br /><br />
+        <input type="radio" value="Male" name="Gender" id="Male" />
+        <label for="Male">Male</label><br><br>
+        <input type="radio" name="Gender" value="female" id="female" />
+        <label for="female">Female</label><br><br>
+        <labe1 for="DOB">Date of Birth</labe1>
+        <input type="datetime" name="DOB" id="DOB" placeholder="mm/dd/yyy"><br><br>
+        <label for="adress">Address</label>
+        <textarea id="adress"></textarea><br><br>
+        <label for="city"><strong>City</strong></label>
+        <input type="text" id="city" name-="city"><br><br>
+        <label for="areapin"><strong>Area pin</strong></label>
+        <input type="text" id="areapin" name="areapin"><br><br>
+        <label for="state"><strong>State:</strong></label>
+        <input type="text" id="text" name="state"><br><br>
+        <label for="qualification"><strong>Qualification</strong></label>
+        <select id="Qualification">
+        <option value="Btech"> Btech</option>
+        <option value="Degree"></option>Degree</option>
+        <option value="BSE">BSE</option>
+        <option value="other">other</option></select>
+        <br><br>
+        <label for="Specialization"><strong>Specialiazation:</strong></label>
+        <input type="checkbox" id="Specialization" name="Specialization">
+        <label for="Cs">Computer Science</label>
+        <input type="checkbox" id="IT" name="IT">
+        <label for="IT">Information Technology</label>
+        <input type="checkbox" id="CA" name="CA">
+        <label for="Computer architecture">Computer Architecture</label>
+        <input type="checkbox" id="TC" name="TC">
+        <label for="TC">Tele communication</label><br><br>
+        <label for="pwd"><strong>Password</strong></label>
+        <input type="password" id="pwd" name="password">
+
+        <center><button formaction="./login2.html">submit</button></center>
+      </form>
+    </fieldset>
+  </body>
+</html>
