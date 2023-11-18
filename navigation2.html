@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        border: 2px  transparent;
+        width: 410px;
+        height: 100px;
+        display: flex;
+        margin-top: 10px;
+        gap: 25px;
+      }
+      .sub {
+        border: 1px solid darkgreen;
+        width: 100px;
+        height: 50px;
+      }
+      .c1 {
+        display: flex;
+        border: 1px solid darkmagenta;
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+      }
+      .sup{
+        border: 1px solid black;
+        width:500px;
+        height:600px;
+        margin-top: 30px;
+      }
+    .b1{
+        margin-left: 10px;
+    }
+    .b2{
+        margin-left: 210px;
+    }
+    .b1,.b2{
+        background-color: antiquewhite;
+    }
+    .ci> p {
+        color:darkorange;
+        background-color: beige;
+    }
+    .c1:hover~.c1{
+        color:aqua;
+    }
+    .c1:hover~{
+
+        color: blue;
+    }
+
+    
+      
+      /* .sup {
+        display: flex;
+        border: 1px solid violet;
+        width: 400px;
+        height: 500px;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="sub">
+        <div class="c1">
+          <img src="../Images/w3.png" height="50" width="50" />
+        </div>
+        <div class="c1">
+          <img src="../Images/icon121.png" height="50" width="50" ; \ />
+        </div>
+        <!-- <div class="c1"></div>
+        <div class="c1"></div> -->
+      </div>
+      <div class="sub">
+        <div class="c1">
+          <details>
+            <summary style="margin-top: 20px">Tutorials</summary>
+            <div class="de">
+                <p>Tutorials</p>
+            <p>CSS</p>
+            <p>Java Scricpt</p>
+            <p>React Js</p>
+            <p>Html</p>
+            </div>
+            
+          </details>
+        </div>
+        <div style="margin-top: 0px" ; class="c1">Java Script</div>
+        <!-- <div class="c1"></div>
+        <div class="c1"></div> -->
+      </div>
+      <div class="sub">
+        <div class="c1">
+          <details class="det1">
+            <summary style="margin-top: 20px">Excersices</summary>
+            <p>HTML</p>
+            <p>Js</p>
+            <p>Node Js</p>
+            <p>Redux</p>
+          </details>
+        </div>
+        <div class="c1">HTML</div>
+        <!-- <div class="c1"></div>
+        <div class="c1"></div> -->
+      </div>
+      <div class="sub">
+        <div class="c1">
+          <p class="sig1" style="position: relative; top: -3px">sign up</p>
+        </div>
+        <div class="c1">CSS</div>
+        <!-- <div class="c1"></div>
+            <div class="c1"></div> -->
+      </div>
+      </div>
+    </div>
+    <div class="sup">
+        <div class="ci">
+            <h1 style="background-color: beige;"> CSS COMBINATORS</h1>
+            <button style="width: 120px; height: 35px;" class="b1">Previous</button>
+            <button style="width:120px;height: 35px;" class="b2">Next</button><br><br>
+            <hr>
+            <h1> CSS COMBINATORS</h1><br><br>
+
+        <p>A cormbinator is something that explains the relationship between the selectors</p><br><br>
+      <p>A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.<br><br>
+
+There are four different combinators in CSS:<br><br>
+
+descendant selector (space)<br>
+child selector (>)<br>
+adjacent sibling selector (+)<br>
+general sibling selector (~)</p> 
+        </div>
+    </div>
+  </body>
+</html>
